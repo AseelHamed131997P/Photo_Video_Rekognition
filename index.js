@@ -17,14 +17,6 @@ var Path = require('path');
  const Axios = require('axios')
  const rekognition = require("./config/amazon");
 
-// AWS.config.update({
-//   accessKeyId: 'AKIAQGBNL5GKC7X27L6E',
-//   secretAccessKey: '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',
-//   region: 'us-east-1'
-// });
-
-
-
 app.get("/", async (req, res) => {
   const snapshot = await User.get();
   const list = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
