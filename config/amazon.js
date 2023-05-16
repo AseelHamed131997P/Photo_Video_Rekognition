@@ -2,8 +2,8 @@ var AWS = require("aws-sdk")
 const REGION = "us-east-1"; //e.g. "us-east-1"
 
 AWS.config.update({
-    accessKeyId: 'AKIAQGBNL5GKC7X27L6E',
-    secretAccessKey: 'WrTPAgZ7FwS6c+YGJO1f2Q4vl1//5Rph1Pb9wEOZ',
+    accessKeyId: 'Akjxdfghj', // accessKeyId not real
+    secretAccessKey: 'WrTPAgZ7FwS6c+YGJO1f2Q4vl19jgj//5Rph1000', // secretAccessKey not real
     region: REGION
   });
 
